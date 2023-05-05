@@ -1,0 +1,754 @@
+@charset "UTF-8";
+
+.container{
+  width:1000px;
+  margin:0 auto;
+}
+
+.clear{
+  clear:both;
+}
+
+.drop_shadow{
+  box-shadow: 3px 6px 15px 0px rgba(0, 0, 0, 0.23);
+}
+
+h2{
+  font-size:40px;
+  color:white;
+  text-align:center;
+  letter-spacing:0.15em;
+}
+
+h3{
+  font-size:19px;
+  padding:35px 0 23px 0;
+}
+
+h4{
+  font-size:40px;
+  font-weight:bold;
+  color:#97d3e3;
+  margin-bottom:40px;
+}
+
+h5{
+  font-size:18px;
+  font-weight:bold;
+  color:#445054;
+  margin-bottom:9px;
+  clear:both;
+}
+
+p,li,table,div,h2,h3,h4,h5{
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing:0.6px;
+  line-height:1.3em;
+}
+
+/* ーーーーーーーーーーーーーー
+    ヘッダー　&
+    グローバルナビゲーション
+ーーーーーーーーーーーーーーーー*/
+
+header{
+  overflow:hidden;
+  padding:55px 0 35px 0;
+}
+
+h1,
+nav,
+nav li{
+  float:left;
+}
+
+h1{
+  position:relative;
+  bottom:5px;
+}
+
+#header_tel{
+  float:right;
+  position:relative;
+  top:5px;
+}
+
+nav a{
+  padding:20px 15px 0 15px;
+  font-size:12px;
+  color:#182a32;
+  display:block;
+}
+
+nav li:first-child{
+  margin-left:190px;
+}
+
+/* ーーーーーーーーーーー
+    メインビジュアル
+ーーーーーーーーーーーー*/
+
+#main_visual{
+  background-image:url(images/main.jpg);
+  width:960px;
+  height:430px;
+  background-size:cover;
+  color:#333;
+}
+
+
+#catch_copy{
+  padding:110px 0 0 550px;
+  overflow:hidden;
+}
+
+#catch_copy p:first-child{
+  font-size:20px;
+  line-height:1.5em;
+}
+
+#sign_line{
+  border-bottom:solid #333 0.5px;
+  margin:15px 0 0 40px;
+  width:120px;
+  float:left;
+}
+
+#catch_copy p:last-child{
+  font-size:10px;
+  line-height:3em;
+  padding-left:20px;
+  float:left;
+}
+
+/* ーーーーーーーーーーーーー
+    Web予約　＆　Web問診
+ーーーーーーーーーーーーーー*/
+
+#top_buttons{
+  z-index:10;
+  position:relative;
+  bottom:70px;
+  font-size:24px;
+  color:white;
+  text-align:center;
+}
+
+#top_buttons a{
+  display:block;
+  padding:48px 0;
+}
+
+#web_questionnaire,
+#web_reservation{
+  float:right;
+  border-radius:5px;
+  height:120px;
+}
+
+#web_reservation{
+  width:246px;
+  background-image: linear-gradient(90deg, rgba(255, 172, 179, 0.98), rgba(228, 108, 135, 1));
+}
+
+#web_questionnaire{
+  width:228px;
+  margin-left:15px;
+  background-image: linear-gradient(90deg, rgba(94, 176, 197, 1), rgba(163, 219, 234, 1));
+}
+
+/* ーーーーーーーーーーー
+    診察時間　カード
+ーーーーーーーーーーーー*/
+
+.card_title{
+  color:white;
+  font-size:30px;
+  padding:60px 35px;
+  float:left;
+}
+
+.inner_box{
+  background-color:#fff;
+  border-radius:4px;
+  width:392px;
+  height:241px;
+  padding: 18px 22px 0 22px;
+  float:right;
+}
+
+#consultation_time_card{
+  background-color:#49a7bf;
+  border-radius:5px;
+  width:500px;
+  height:255px;
+  float:left;
+  padding:7px 7px 0 0;
+  overflow:hidden;
+  position:relative;
+  z-index:10;
+}
+
+/* ーーーーーーーーーーー
+    お知らせ　カード
+ーーーーーーーーーーーー*/
+
+#news_card{
+  float:right;
+  overflow:hidden;
+  background-color:#66b5c9;
+  border-radius:5px;
+  padding:7px 7px 0 0;
+  height:255px;
+  position:relative;
+  z-index:10;
+}
+
+#news_card .inner_box{
+  width:355px;
+  padding: 0;
+}
+
+
+table{
+  margin:28px 0 0 20px;
+  border-collapse:separate;
+  border-spacing: 17px 15px;
+  line-height:1.3em;
+}
+
+th,td{
+  vertical-align:top;
+}
+
+.news{
+  font-size:14px;
+  font-weight:bold;
+  color:#65b4c7;
+}
+
+.news span{
+  font-size:20px;
+}
+
+.news_content{
+  position:relative;
+  top:1px;
+}
+
+/* ーーーーーーーーーーーーーー
+    TOPへ戻るボタン
+ーーーーーーーーーーーーーーーー*/
+
+#back_to_top{
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  z-index:20;
+  background-image: linear-gradient(137deg, rgba(125, 203, 226, 1), rgba(97, 169, 190, 1) 86%);
+  border-radius:6px;
+  border:0.1px solid #d8f0ff;
+}
+
+#back_to_top a{
+  display: block;
+  width:78px;
+  height:64px;
+  padding-top:20px;
+}
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-right: 23px solid transparent;
+  border-left: 23px solid transparent;
+  border-bottom: 22px solid #ffffff;
+  border-top: 0;
+  margin:0 auto;
+}
+
+
+/* ーーーーーーーーーーー
+    診療案内｜MENU
+ーーーーーーーーーーーー*/
+
+#medical_examination_menu{
+  width:100%;
+  height:850px;
+  padding-top:175px;
+  position:relative;
+  bottom:100px;
+  background-image: linear-gradient(137deg, rgb(176, 221, 233), rgb(69, 170, 195) 86%);
+  overflow: hidden;
+}
+
+#left_rectangle,
+#right_rectangle{
+  background-color:rgba(216, 232, 236, 0.5);
+  width:20%;
+  height:427px;
+  float:left;
+  position:relative;
+  bottom:30px;
+}
+
+#right_rectangle{
+  width:25%;
+  height:313px;
+  float:right;
+  position:relative;
+  bottom:50px;
+}
+
+
+#examination_menu_cards{
+  position:absolute;
+  top:300px;
+  color:#3f3f3f;
+}
+
+.menu_card{
+  width:250px;
+  height:400px;
+  background-color:#fff;
+  border-radius:16px;
+  float:left;
+  z-index:10;
+  box-shadow: 5px 12px 15px 0 rgba(0, 0, 0, 0.23);
+  text-align:center;
+}
+
+.gray{
+  background-color:#e3f4f4;
+  position:relative;
+  top:30px;
+}
+
+.menu_card img{
+  width:190px;
+  border-radius:6.6px;
+  margin-bottom:10px;
+}
+
+.menu_card p{
+  font-size:12px;
+  line-height:2em;
+  width:16em;
+  margin:0 auto;
+  margin-bottom:15px;
+}
+
+.see_more_button a{
+  font-size:11.8px;
+  display:block;
+  width:132px;
+  height:40px;
+  border-radius:20px;
+  border:1px solid #333;
+  text-align:center;
+  padding-top:8px;
+  margin:0 auto;
+}
+
+
+/* ーーーーーーーーーーーーーー
+    クリニック紹介｜ABOUT
+ーーーーーーーーーーーーーーー*/
+
+#about_clinic{
+  color:#404040;
+  padding-bottom:120px;
+}
+
+#about_clinic h2{
+  color:#3f3f3f;
+  padding:10px 0 40px 0;
+}
+
+/* 当医院の挨拶 */
+
+#clinic_image{
+  width:54%;
+  float:left;
+  margin-top:20px;
+}
+
+#clinic_intro{
+  font-size:14px;
+  line-height:1.7em;
+  float:right;
+  width:46%;
+  padding-left:41px;
+}
+
+#clinic_intro span{
+  font-size:31.5px;
+  line-height:3em;
+}
+
+#clinic_intro small{
+  padding:0 0 0 20px;
+  line-height:9em;
+}
+
+#clinic_intro img{
+  width:155px;
+  float:right;
+  padding-top:30px;
+  margin-right:50px;
+}
+
+
+/* 当医院の設備 */
+
+#clinic_equipment{
+  clear:both;
+  font-size:13.5px;
+}
+
+#about_clinic h3 img{
+  width:260px;
+  padding:50px 0 20px 0;
+}
+
+#clinic_equipment ul{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#clinic_equipment li{
+  padding-bottom:45px;
+  text-align:center;
+}
+
+#clinic_equipment li img{
+  width:178px;
+  border-radius:10px;
+  margin-bottom:10px;
+}
+
+/* 当医院の様子 */
+
+#clinic_slides{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#clinic_state_slide_ul{
+  overflow:hidden;
+  height:395px;
+  width:855px;
+}
+
+.slide{
+  width:855px;
+}
+
+#slide_prev{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 28px solid #cde4eb;
+  border-left: 0;
+  margin-top:157px;
+  cursor:pointer;
+}
+
+#slide_next{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 28px solid #cde4eb;
+  border-right: 0;
+  margin-top:157px;
+  cursor:pointer;
+}
+
+#slide_index_ul{
+  display:flex;
+  justify-content: center;
+}
+
+.slide_index{
+  color:#e6e6e6;
+  font-size:17px;
+  padding:5px 5px;
+  margin:20px 4px;
+  cursor:pointer;
+}
+
+.active{
+  color:#90cfe0;
+}
+
+
+/* ーーーーーーーーーーーーーー
+    アクセス｜ACCESS
+ーーーーーーーーーーーーーーー*/
+
+#access{
+  text-align: center;
+  color:white;
+  padding-top:120px;
+  padding-bottom:120px;
+  font-size:16px;
+  background-image: linear-gradient(137deg, rgb(176, 221, 233), rgb(69, 170, 195) 86%);
+}
+
+iframe{
+  margin-bottom:10px;
+}
+
+#access p{
+  padding:20px 0 40px 0;
+}
+
+#access span{
+  letter-spacing:2px;
+}
+
+
+
+
+/* ーーーーーーーーーーーーーー
+    詳細　カード一覧
+ーーーーーーーーーーーーーーー*/
+
+#examination_detail_cards{
+  padding-top:150px;
+}
+
+.detail_card{
+  background-color:#fff;
+  color:#1b2b35;
+  width:970px;
+  border-radius:15px;
+  margin:0 auto;
+  margin-bottom:115px;
+  padding:50px;
+  overflow:hidden;
+  position:relative;
+}
+
+.detail_left{
+  position:relative;
+  left:-50px;
+
+}
+
+.detail_right{
+  position:relative;
+  right:-50px;
+}
+
+.detail_card img{
+  width:255px;
+  border-radius:10px;
+  float:left;
+  clear:both;
+  margin-bottom:35px;
+}
+
+.detail_content{
+  width:570px;
+  font-size:14px;
+  line-height:2em;
+  float:right;
+  margin-top:5px;
+  margin-left:30px;
+}
+
+.detail_content span{
+  line-height:4em;
+}
+
+.min_title{
+  clear:left;
+  font-size:16px;
+  font-weight:bold;
+  color:#445054;
+  margin-bottom:8px;
+}
+
+.min_content{
+  font-size:13px;
+  line-height:2em;
+}
+
+.float_h4{
+  float:left;
+}
+
+.reser_content{
+  margin-top:6px;
+  margin-left:135px;
+  font-size:17px;
+  float:left;
+}
+
+.reser_text{
+  margin-top:8px;
+  font-size:13px;
+}
+
+#vaccination_detail{
+  width:490px;
+  padding:30px 30px 16px 30px;
+  background-color:#e0f5fa;
+  clear:both;
+  float:left;
+  border-radius:5px;
+}
+
+.type_of_vaccination{
+  font-size:14px;
+  line-height:2em;
+}
+
+.disease_prevent{
+  font-size:12px;
+  line-height:1.7em;
+  margin-bottom:10px;
+}
+
+img[alt="Know_VPO"]{
+  margin-top:30px;
+  width:350px;
+}
+
+.link_button a{
+  width:300px;
+  height:76px;
+  display:block;
+  font-size:16px;
+  color:white;border-radius:38px;
+  background-image: linear-gradient(90deg, rgba(255, 175, 183, 1), rgba(228, 108, 135, 1) 50%, rgba(185, 140, 255, 1));  
+  text-align:center;
+  float:right;
+  padding-top:26px;
+  position:relative;
+  bottom:10px;
+}
+
+
+.float_right{
+  float:right;
+}
+
+#margin_left{
+  margin-left:95px;
+}
+
+#infant_note{
+  font-size:13px;
+  line-height:2.15em;
+  width:570px;
+  float:right;
+  margin-top:25px;
+}
+
+#margin_reser_text{
+  float:left;
+  margin-top:10px;
+  margin-left:50px;
+  line-height:1.6em;
+}
+
+#margin_link_button{
+  float:right;
+  margin-top:30px;
+  margin-right:160px;
+  position:relative;
+  top:10px;
+}
+
+
+
+/* ーーーーーーーーーーーーーー
+    フッター
+ーーーーーーーーーーーーーーー*/
+
+footer{
+  padding:80px 0 50px 0;
+  background-image: linear-gradient(137deg, rgba(78, 186, 232, 1), rgba(151, 211, 227, 1) 86%);
+}
+
+#white_line{
+  border-bottom:2.6px solid #fff;
+  width:595px;
+}
+
+.footer_menu a,
+.footer_menu_detail a{
+  text-align:center;
+  color:white;
+  font-size:18px;
+  letter-spacing:1.5px;
+  float:left;
+  border-radius:8px;
+  display:block;
+}
+
+#footer_logo{
+  margin-bottom:30px;
+}
+
+footer ul{
+  overflow:hidden;
+  width:620px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+.footer_menu a{
+  padding:12px 12px 12px 0;
+  margin-right:24px;
+  margin-bottom:5px;
+}
+
+.footer_menu_detail a{
+  background-color:#64adc1;
+  margin-right:10px;
+  padding:12px 23px;
+}
+
+#footer_contact{
+  float:right;
+}
+
+#footer_menu{
+  float:left;
+  margin-bottom:30px;
+}
+
+#copy_right{
+  clear:both;
+  text-align:center;
+  color:white;
+}
+
+#footer_tel{
+  padding-top:10px;
+  margin-bottom:25px;
+}
+
+.footer_button a{
+  color:white;
+  font-size:28px;
+  background-color:#64adc1;
+  display:block;
+  width:246px;
+  height:65px;
+  text-align:center;
+  padding-top:20px;
+  border-radius:7px;
+  margin-bottom:25px;
+}
