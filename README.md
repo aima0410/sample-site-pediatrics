@@ -14,7 +14,7 @@ HTML5　　
 CSS3　　
 JavaScript　　
 　　
-##　Production Time　　
+## Production Time　　　　
 01 情報収集       3h　　
 02 ワイヤーフレーム  16h　　
 03 デザインカンプ   20h　　
