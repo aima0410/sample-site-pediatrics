@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg7180" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 150"
+	 style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{opacity:0.82;}
+	.st2{fill:#FFFFFF;}
+</style>
+<sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" fit-margin-bottom="0" fit-margin-left="0" fit-margin-right="0" fit-margin-top="0" id="base" inkscape:current-layer="layer1" inkscape:cx="188.09584" inkscape:cy="-45.259669" inkscape:document-units="mm" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="455" inkscape:window-maximized="0" inkscape:window-width="651" inkscape:window-x="104" inkscape:window-y="104" inkscape:zoom="1.4" pagecolor="#ffffff" showgrid="false" units="mm">
+	</sodipodi:namedview>
+<g id="layer1" transform="translate(-54.193968,-30.783042)" inkscape:groupmode="layer" inkscape:label="Layer 1">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="54.194" y1="105.765" x2="204.1579" y2="105.765">
+		<stop  offset="0" style="stop-color:#5EB0C5"/>
+		<stop  offset="1" style="stop-color:#A3DBEA"/>
+	</linearGradient>
+	<rect x="54.2" y="30.8" class="st0" width="150" height="150"/>
+	<g id="g4702" transform="matrix(0.12732727,0,0,0.13755966,54.194187,22.146909)" class="st1">
+		<path id="path4704" inkscape:connector-curvature="0" class="st2" d="M1079.9,519c-13.4-145.8-140-239.3-264.4-239.3
+			C691.1,279.7,589,380.5,589,504.9l0,0c0-124.4-102.1-225.2-226.5-225.2c-124.4,0-251,93.5-264.4,239.3
+			c-1.3,13.9-1.9,27.2-1.9,39.9c-1.2,293.2,325.6,298.1,475.5,453.4c6,6.3,5,5.7,5,5.7c3.1,3.5,7.5,5.5,12.2,5.5
+			c4.7,0,9.1-2,12.2-5.5c0,0-1.1,0.6,5-5.7C756.2,857,1083,852.1,1081.8,558.9C1081.8,546.2,1081.2,532.9,1079.9,519z"/>
+	</g>
+</g>
+</svg>
