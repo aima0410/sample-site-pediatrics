@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ログイン｜あおいろこどもクリニック</title>
+  <meta name="description" content="忙しいママとパパが安心して子どもと暮らせる医療を。オンライン診療にも対応しています。福井県福井市手寄2丁目、福井駅から徒歩8分の小児科。">
+  <!-- TEL自動検出防止 -->
+  <meta name="format-detection" content="telephone=no">
+  <!-- ファビコン設定 -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <!-- ウェブクリップアイコン -->
+  <link rel="apple-touch-icon" href="images/webclip.svg">
+  <!-- シェア設定 -->
+  <meta property="og:site_name" content="あおいろこどもクリニック">
+  <meta property="og:url" content="http://2303.web-fukui.com/14/web01/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ログイン｜あおいろこどもクリニック">
+  <meta property="og:description" content="忙しいママとパパが安心して子どもと暮らせる医療を。オンライン診療にも対応しています。">
+  <meta property="og:image" content="http://2303.web-fukui.com/14/web01/images/main.jpg">
+  <meta property="og:locale" content="ja_JP">
+  <!-- Twitter専用のシェア設定 -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:description" content="忙しいママとパパが安心して子どもと暮らせる医療を。オンライン診療にも対応しています。">
+  <meta name="twitter:image:src" content="http://2303.web-fukui.com/14/web01/images/main.jpg">
+  <!--　運営アカウントがあれば <meta name="twitter:site" content="@TwiiterID"> -->
+  <!-- CSSファイル -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/login.css">
+  <!-- Googleフォント -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap" rel="stylesheet">
+  <!-- 検索結果に表示させない＆クローリング防止の設定 -->
+  <meta name="robots" content="noindex,nofollow">
+  <!-- JSファイル -->
+  <script src="js/login.js" defer></script>
+  <!-- クッキーの設定　同じサイト内のリクエストにのみ送信 -->
+  <script>document.cookie = 'cookieName=value; SameSite=None; Secure';</script>
+</head>
+
+<body>
+  <header>
+    <div class="container --spacebetween">
+      <h1 id="header_left">
+        <a href="index.html">
+          <img src="images/header_clinic_logo.svg" alt="あおいろこどもクリニック｜福井駅から徒歩8分の小児科">
+        </a>
+      </h1>
+      <div id="header_right" class="--spacebetween">
+        <nav>
+          <ul class="--spacebetween">
+            <li class="nav__li"><a href="index.html#menu_wrapper">診療案内</a></li>
+            <li class="nav__li"><a href="index.html#about_wrapper">クリニック紹介</a></li>
+            <li class="nav__li"><a href="index.html#access_wrapper">アクセス</a></li>
+          </ul>
+        </nav>
+        <a href="tel:05067826523">
+          <img src="images/header_tel_logo.svg" alt="電話番号：050-6782-6523">
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="login_wrapper">
+      <div class="container">
+        <h2 id="login__heading">ログイン</h2>
+        <form id="loginForm">
+          <table>
+            <tr>
+              <th><label for="entered_id">ユーザーID：</label></th>
+              <td><input type="text" id="entered_id" name="entered_id" required></td>
+            </tr>
+            <tr>
+              <th><label for="entered_password">パスワード：</label></th>
+              <td><input type="password" id="entered_password" name="entered_password" required></td>
+            </tr>
+          </table>
+          <button type="submit" id="loginButton">ログイン</button>
+        </form>
+
+        <div id="searchResult"></div>
+      </div>
+    </div> <!-- login  end -->
+  </main>
+  <footer class="wrapper--padding">
+    <div class="container --spacebetween">
+      <div id="footer__left">
+        <h2 id="footer__logo"><a href="index.html"><img src="images/footer_clinic_logo.svg"
+              alt="あおいろこどもクリニック｜〒910-0858 福井県福井市手寄２丁目8-14"></a></h2>
+        <ul id="footer__nav" class="--spacebetween">
+          <li class="footer__nav__li"><a href="index.html#info_wrapper">診察時間/お知らせ</a></li>
+          <li class="footer__nav__li"><a href="index.html#menu_wrapper">診療案内</a></li>
+          <li class="footer__nav__li"><a href="index.html#about_wrapper">クリニック紹介</a></li>
+          <li class="footer__nav__li"><a href="index.html#access_wrapper">アクセス</a></li>
+          <li class="footer__sub_nav__li"><a href="index.html#general_practice">一般診療</a></li>
+          <li class="footer__sub_nav__li"><a href="index.html#vaccination">予防接種</a></li>
+          <li class="footer__sub_nav__li"><a href="index.html#infantchekup">乳幼児健診</a></li>
+          <li class="footer__sub_nav__li"><a href="index.html#online_medical">オンライン診療</a></li>
+        </ul>
+      </div>
+      <div id="footer__right">
+        <a href="tel:05067826523">
+          <img src="images/footer_tel_logo.svg" alt="電話番号：050-6782-6523">
+        </a>
+        <a class="footer__button" href="#">Web予約</a>
+        <a class="footer__button" href="#">Web問診</a>
+      </div>
+      <small id="footer__copyright">&copy; AOIRO KODOMO CLINIC All Rights Reserved.</small>
+    </div>
+  </footer>
+</body>
+
+</html>
