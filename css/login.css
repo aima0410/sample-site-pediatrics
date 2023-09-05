@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* ------------------------
+    ログイン　login
+------------------------- */
+#login_wrapper{
+  margin:50px 0 100px;
+  text-align:center;
+}
+#login_wrapper .container{
+  padding:30px 0 40px;
+  border:solid 1px #404040;
+}
+#login__heading{
+  margin-bottom:20px;
+  font-size:30px;
+  font-weight:bold;
+}
+#loginForm table{
+  position:relative;
+  right:10px;
+  margin:0 auto;
+}
+#loginForm tr{
+  height:45px;
+}
+#loginForm th{
+  text-align:right;
+  vertical-align:middle;
+}
+#loginForm td{
+  vertical-align:middle;
+}
+#loginForm input{
+  width:200px;
+  height:30px;
+  border:solid 1px #404040;
+  text-align:left;
+}
+#loginButton{
+  width:250px;
+  height:50px;
+  background-color:#ededed;
+  margin:20px 0 0;
+  color:#9f9f9f;
+  font-weight:bold;
+}
+#searchResult{
+  padding-top:10px;
+  color:red;
+}
