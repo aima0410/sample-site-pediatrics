@@ -7,9 +7,6 @@ Webサイト開設の目的は、①新規の患者獲得。②近所の小児�
 ## Composition
  width 1000px　✕　1ページ<br>
 
-## Link
-http://2303.web-fukui.com/14/web01/
-
 ## Application & Languages　　
 <ul>
   <li>Expression Web4</li>
